@@ -1,0 +1,21 @@
+{
+datum	:	"05.05.2015."
+valute :	[
+{
+naziv	:	"EUR",
+kurs	:	121.3434	
+},
+{
+naziv	:	"USD",
+kurs	:	121.3434	
+},
+{
+naziv	:	"CAD",
+kurs	:	121.3434	
+},
+{
+naziv	:	"GBP",
+kurs	:	121.3434	
+}
+]
+}
