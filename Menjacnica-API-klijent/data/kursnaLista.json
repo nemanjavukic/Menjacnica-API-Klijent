@@ -1,21 +1,21 @@
 {
-datum	:	"05.05.2015."
-valute :	[
-{
-naziv	:	"EUR",
-kurs	:	121.3434	
-},
-{
-naziv	:	"USD",
-kurs	:	121.3434	
-},
-{
-naziv	:	"CAD",
-kurs	:	121.3434	
-},
-{
-naziv	:	"GBP",
-kurs	:	121.3434	
-}
-]
+  "datum": "Fri May 22 23:53:57 CEST 2015",
+  "valute": [
+    {
+      "naziv": "EUR",
+      "kurs": 120.66377686
+    },
+    {
+      "naziv": "USD",
+      "kurs": 109.565002
+    },
+    {
+      "naziv": "CAD",
+      "kurs": 89.20415388
+    },
+    {
+      "naziv": "GBP",
+      "kurs": 169.72139142
+    }
+  ]
 }
