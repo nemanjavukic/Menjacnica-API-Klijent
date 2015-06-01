@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 import java.util.LinkedList;
 
@@ -60,9 +61,12 @@ public class AzuriranjeKursneListe {
 	public void upisiValute (LinkedList<Valuta> valute, GregorianCalendar datum){
 		
 		JsonObject valuta= new JsonObject();
-		valuta.addProperty("datum", datum.getTime().toString());
 		
+		 SimpleDateFormat fmt = new SimpleDateFormat("dd.MM.yyyy");
+		    fmt.setCalendar(datum);
+		    String dat = fmt.format(datum.getTime());
 		JsonArray valuteJson= new JsonArray();
+		valuta.addProperty("datum", dat);
 		
 		for (int i = 0; i < valute.size(); i++) {
 			JsonObject va=new JsonObject();
